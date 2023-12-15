@@ -11,8 +11,9 @@
         label="Your name *"
         hint="Name and surname"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'please enter your name']"
-      /> 
+        :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ...']"
+      />
+
       <q-input
         filled
         type="number"
