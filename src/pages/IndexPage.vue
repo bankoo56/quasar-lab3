@@ -12,7 +12,7 @@
         hint="Name and surname"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'please enter your name']"
-      />
+      /> 
       <q-input
         filled
         type="number"
